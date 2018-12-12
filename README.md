@@ -38,7 +38,7 @@ const obj = {
 obj.f('Test')
 ```
 
-mais également à des tableaux
+Mais également à des tableaux
 
 ```javascript=
 const a = [
@@ -67,7 +67,7 @@ f('Test')
 
 # LES FONCTIONS D'ORDRE SUPÉRIEUR
 
-Le terme anglaisétant trop important, car retrouvé dans de nombreuses documentation, je me permets de le repréciser ici :
+Le terme anglais étant trop important, car retrouvé dans de nombreuses documentations, je me permets de le repréciser ici :
 `HIGHER ORDER FUNCTIONS`
 
 Il s'agit des fonctions qui acceptent ou retournent d'autres fonctions.
