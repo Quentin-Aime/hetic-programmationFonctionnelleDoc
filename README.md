@@ -6,11 +6,11 @@ La programmation fonctionnelle est un paradigme de programmation doté de quelqu
 
 Dans les langages de programmation, vous trouverez des langages de programmation purement fonctionnels ainsi que des langages de programmation qui supportent les techniques de programmation fonctionnelle.
 
-Parmi les langages de programmation purement fonctionnels les plus connues ont retrouve l' Haskell, le Clojure ainsi que Scala.
+Parmi les langages de programmation purement fonctionnels les plus connus, ont retrouve l' Haskell, le Clojure ainsi que Scala.
 
-Et parmi les plus populaires qui supportent les technique de programmation fonctionnelles, on croise le JavaScript, le Python, le Ruby ainsi que bien d'autres.
+Et parmi les plus populaires qui supportent les techniques de programmation fonctionnelles, on croise le JavaScript, le Python, le Ruby ainsi que bien d'autres.
 
-La programmation fonctionnelle n'est pas un nouveau concept, il remonte en fait aux années 30, à la naissance du lambda-calcul, et à influencer de nombreux autres langages de programmation.
+La programmation fonctionnelle n'est pas un nouveau concept, elle remonte en fait aux années 30, à la naissance du lambda-calcul, et a influencé de nombreux autres langages de programmation.
 
 Ces derniers temps, elle est en train de revenir au goût du jour. C'est donc le moment idéal d'en apprendre davantage à ce sujet.
 
