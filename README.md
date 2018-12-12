@@ -1,5 +1,6 @@
 # INTRODUCTION À LA PROGRAMMATION FONCTIONNELLE
 *https://flaviocopes.com/javascript-functional-programming/#introduction-to-functional-programming*
+> I do not own anything that is said below, this is merely just a translation from this article.
 
 La programmation fonctionnelle est un paradigme de programmation doté de quelques techniques particulières.
 
