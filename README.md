@@ -20,14 +20,14 @@ Ces derniers temps, elle est en train de revenir au goût du jour. C'est donc le
 
 Dans un langage de programmation fonctionnelle, celles-ci sont des citoyens de première classe.
 
-## ELLES PEUVENT ÊTRE ASSIGNÉE À DES VARIABLES
+## ELLES PEUVENT ÊTRE ASSIGNÉEs À DES VARIABLES
 
 ```javascript=
 const f = (m) => console.log(m)
 f('Test')
 ```
 
-Puisqu'elles peuvent être assignée à une variable, elle peuvent donc être ajoutée à des objets.
+Puisqu'elles peuvent être assignées à une variable, elle peuvent donc être ajoutées à des objets.
 
 ```javascript=
 const obj = {
