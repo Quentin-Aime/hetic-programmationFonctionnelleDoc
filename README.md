@@ -160,7 +160,7 @@ Puisque l'immutabilité est un concept si important et l'une des fondations de l
 
 C'est simple: **la donnée est modifié en créant des copies de celle-ci**.
 
-Les fonctions, en particulier, change la donnée en en retournant des copies.
+Les fonctions, en particulier, changent la donnée en en retournant des copies.
 
 Parmi celles-ci on retrouve notamment **map** et **reduce**.
 
