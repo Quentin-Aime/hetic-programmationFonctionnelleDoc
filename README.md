@@ -20,7 +20,7 @@ Ces derniers temps, elle est en train de revenir au goût du jour. C'est donc le
 
 Dans un langage de programmation fonctionnelle, celles-ci sont des citoyens de première classe.
 
-## ELLES PEUVENT ÊTRE ASSIGNÉEs À DES VARIABLES
+## ELLES PEUVENT ÊTRE ASSIGNÉES À DES VARIABLES
 
 ```javascript=
 const f = (m) => console.log(m)
