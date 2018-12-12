@@ -158,7 +158,7 @@ Celles-ci :
 
 Puisque l'immutabilité est un concept si important et l'une des fondations de la programmation fonctionnelle, vous vous demandez sûrement comment modifier vos données.
 
-C'est simple: **la donnée est modifié en créant des copies de celle-ci**.
+C'est simple: **la donnée est modifiée en créant des copies de celle-ci**.
 
 Les fonctions, en particulier, changent la donnée en en retournant des copies.
 
