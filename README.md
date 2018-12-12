@@ -108,7 +108,7 @@ Les objets quant à eux ne sont jamais directement modifiés non plus, mais plut
 
 ## CONST
 
-C'est la raison pour laquelle en le mot clef `const` apporté par l'ES6 est autant utilisé en JavaScript, afin de **forcer** l'immutabilité des variables.
+C'est la raison pour laquelle le mot clef `const` apporté par l'ES6 est autant utilisé en JavaScript, afin de **forcer** l'immutabilité des variables.
 
 ## OBJECT.ASSIGN()
 
@@ -123,7 +123,7 @@ const yellowObj = Object.assign({}, redObj, {color: 'yellow'})
 
 Pour ajouter des valeurs à un tableau en JavaScript on utilise généralement la méthode `push()` sur ce tableau. Cependant cette méthode apporte une mutation au tableau original, ce n'est donc pas orienté programmation fonctionnelle.
 
-À la place il faut utiliser la méhode `concat()`
+À la place il faut utiliser la méthode `concat()`
 
 ```javascript=
 const a = [1, 2]
@@ -140,7 +140,7 @@ const c = [...a, 3]
 
 ## FILTER()
 
-Il en va de même si l'on veut retirer une valeur d'un tableau. Au lieu de `pop()`et `slice()`, qui modifie le tableau original, il faut utiliser `array.filter()`
+Il en va de même si l'on veut retirer une valeur d'un tableau. Au lieu de `pop()` et `slice()`, qui modifient le tableau original, il faut utiliser `array.filter()` (où 'array' sera le nom de votre tableau)
 
 ```javascript=
 const d = a.filter((v, k) => k < 1)
@@ -150,9 +150,9 @@ const d = a.filter((v, k) => k < 1)
 # LES FONCTIONS PURES
 
 Celles-ci :
-- ne change jamais aucun des paramètres passés en **référence** (en JS, les tableaux et objets): ceux-ci doivent être considérés comme immutable. Elle peuvent cependant changer les paramètres copiés par valeur
-- possède une valeur de retour non influencée par autre chose que ces paramètres. Les mêmes paramètres auront toujours le même résultat
-- ne change jamais quelque chose situé en dehors de son scope, durant son execution
+- ne changent jamais aucun des paramètres passés en **référence** (en JS, les tableaux et objets): ceux-ci doivent être considérés comme immutable. Elle peuvent cependant changer les paramètres copiés par valeur
+- possèdent une valeur de retour non influencée par autre chose que ces paramètres. Les mêmes paramètres auront toujours le même résultat
+- ne changent jamais quelque chose situé en dehors de son scope, durant son exécution
 
 # LA TRANSFORMATION DE LA DONNÉE
 
