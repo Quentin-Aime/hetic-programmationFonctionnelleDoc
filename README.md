@@ -150,7 +150,7 @@ const d = a.filter((v, k) => k < 1)
 # LES FONCTIONS PURES
 
 Celles-ci :
-- ne change jamais aucun des paramètres passés en **référence** (en JS, les tableaux et objets): ceux-ci doivent être considéré comme immutable. Elle peuvent cependant changer les paramètres copié par valeur
+- ne change jamais aucun des paramètres passés en **référence** (en JS, les tableaux et objets): ceux-ci doivent être considérés comme immutable. Elle peuvent cependant changer les paramètres copiés par valeur
 - possède une valeur de retour non influencée par autre chose que ces paramètres. Les mêmes paramètres auront toujours le même résultat
 - ne change jamais quelque chose situé en dehors de son scope, durant son execution
 
