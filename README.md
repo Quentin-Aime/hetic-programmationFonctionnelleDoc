@@ -122,7 +122,7 @@ const yellowObj = Object.assign({}, redObj, {color: 'yellow'})
 
 Pour ajouter des valeurs à un tableau en JavaScript on utilise généralement la méthode `push()` sur ce tableau. Cependant cette méthode apporte une mutation au tableau original, ce n'est donc pas orienté programmation fonctionnelle.
 
-À la place il faut utiliser la méhode `concat()``
+À la place il faut utiliser la méhode `concat()`
 
 ```javascript=
 const a = [1, 2]
