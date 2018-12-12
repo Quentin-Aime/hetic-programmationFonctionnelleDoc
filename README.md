@@ -86,15 +86,15 @@ Une approche impérative consiste à indiquer à la machine les différentes ét
 
 À l'inverse, une approche déclarative consiste à indiquer à la machine le résultat attendu, et de la laisser comprendre d'elle-même les différents détails.
 
-Vous commencez à réfléchir à cette dernière lorque vous avez suffisamment de niveaux d'abstraction pour arrêter de penser à des constructions de bas niveaux, et que vous vous concentrez davantage sur des aspects plus élevé de l'UI.
+Vous commencez à réfléchir à cette dernière lorsque vous avez suffisamment de niveaux d'abstraction pour arrêter de penser à des constructions de bas niveaux, et que vous vous concentrez davantage sur des aspects plus élevés de l'UI.
 
-Certains peuvent affirmer que le C est plus déclaratif que l'assembleur, et serait juste.
+Certains peuvent affirmer que le C est plus déclaratif que l'assembleur, et se serait juste.
 
-L'HTML est déclaratif, si vous l'avez donc utilisé depuis 1995, vous avez en fait construits des UI déclaratives depuis plus de 20 ans.
+L'HTML est déclaratif, si vous l'avez donc utilisé depuis 1995, vous avez en fait construit des UI déclaratives depuis plus de 20 ans.
 
 Le JavaScript peut prendre ces 2 approches.
 
-Par exemple une approche déclarative serait d'éviter d'utiliser des `loops`, mais de passer plutôt par des `map`, `reduce` et `filter`. Ceux-ci étant plus abstraits et se concentrent moins sur les différentes étapes à fournir à la machine.
+Par exemple une approche déclarative serait d'éviter d'utiliser des `loops`, mais de passer plutôt par des `map`, `reduce` et `filter`. Ceux-ci, étant plus abstraits, se concentrent moins sur les différentes étapes à fournir à la machine.
 
 # L'IMMUTABILITÉ
 
@@ -104,7 +104,7 @@ Une variable ne peut jamais être changée. Pour la modifier, il faut créer une
 
 Plutôt que de changer un tableau de valeur, pour y ajouter une nouvelle donnée, il faut créer un nouveau tableau en concaténant l'ancien ainsi que la nouvelle valeur.
 
-Les objets quant à eux ne sont jamais directement modifiés non plus, mais plutôt copié avant d'avoir leur donnée(s) changée(s).
+Les objets quant à eux ne sont jamais directement modifiés non plus, mais plutôt copiés avant d'avoir leur donnée(s) changée(s).
 
 ## CONST
 
