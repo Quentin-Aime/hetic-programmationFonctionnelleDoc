@@ -47,7 +47,7 @@ const a = [
 a[0]('Test')
 ```
 
-## ELLES PEUVENT ÊTRE UTILISÉE EN TANT QU'ARGUMENT POUR D'AUTRES FONCTIONS
+## ELLES PEUVENT ÊTRE UTILISÉES EN TANT QU'ARGUMENT POUR D'AUTRES FONCTIONS
 
 ```javascript=
 const f = (m) => () => console.log(m)
@@ -55,7 +55,7 @@ const f2 = (f3) => f3()
 f2(f('Test'))
 ```
 
-## ELLES PEUVENTS ÊTRE LA VALEUR DE RETOUR D'AUTRES FONCTIONS
+## ELLES PEUVENT ÊTRE LA VALEUR DE RETOUR D'AUTRES FONCTIONS
 
 ```javascript=
 const createF = () => {
@@ -65,7 +65,7 @@ const f = createF()
 f('Test')
 ```
 
-# LES FONCTIONS D'ORDRE SUPERIEUR
+# LES FONCTIONS D'ORDRE SUPÉRIEUR
 
 Le terme anglaisétant trop important, car retrouvé dans de nombreuses documentation, je me permets de le repréciser ici :
 `HIGHER ORDER FUNCTIONS`
